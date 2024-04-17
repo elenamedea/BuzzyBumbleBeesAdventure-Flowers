@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  eda-st-pages-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - 80:80
+    
+  
+
