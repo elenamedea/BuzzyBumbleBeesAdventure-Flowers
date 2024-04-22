@@ -1,0 +1,26 @@
+name: bbba-flowers
+channels:
+  - conda-forge
+  - defaults
+  - dektoud
+  - plotly
+dependencies:
+  - python=3.11.7
+  - conda-forge::ipython=8.22.2
+  - conda-forge::itables=2.0.0
+  - conda-forge::jupyter=1.0.0 
+  - conda-forge::matplotlib=3.8.4
+  - numpy=1.26.3
+  - conda-forge::pandas=2.2.2
+  - conda-forge::pip=24.0
+  - conda-forge::pygwalker=0.4.7
+  - conda-forge::python-dotenv=1.0.1
+  - conda-forge::seaborn=0.13.2
+  - conda-forge::streamlit=1.33.0
+  - plotly::plotly=5.20.0 
+  - conda-forge::ipywidgets=8.1.2 
+  - conda-forge::scikit-image=0.22.0 
+  - conda-forge::statsmodels=0.14.1 
+  - conda-forge::imageio=2.34.0 
+  - pip:
+    - st-pages==0.4.5
