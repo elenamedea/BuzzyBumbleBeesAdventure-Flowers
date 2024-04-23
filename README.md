@@ -39,13 +39,13 @@ The current folder contains nine .csv files on the data collection, to be used a
 
 ## pages
 
-The current subfolder contains one folder(**docs**) with two markdown files (`bibliography.md`, and `metadata.md`) and five python files (`1_eda_summaries.py`, `2_metadata.py`, `3_bibliography.py`, `4_eda_project_scope.py`, and `5_diy_exploration.py`). These python files together with markdowns from the **docs** folder consists the major blocks of code for the multipage app.
+The current folder contains one folder(**docs**) with two markdown files (`bibliography.md`, and `metadata.md`) and five python files (`1_eda_summaries.py`, `2_metadata.py`, `3_bibliography.py`, `4_eda_project_scope.py`, and `5_diy_exploration.py`). These python files together with markdowns from the **docs** folder consists the major blocks of code for the multipage app.
 
 The`__init__.py` file lets the Python interpreter know that a directory contains code for a Python module. An `__init__.py` file can be blank. Without one, you cannot import modules from another folder into your project.
 
 ## utils
 
-The current subfolder contains **24** python files, representing python functions used in the multipage app and a `__init__.py` file, intialising these functions.
+The current folder contains **24** python files, representing python functions used in the multipage app and a `__init__.py` file, intialising these functions.
 
 ## `app.py`
 
