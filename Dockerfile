@@ -2,8 +2,14 @@ FROM continuumio/miniconda3:23.10.0-1
 
 WORKDIR /app
 
-COPY ./multipage_app multipage_app
-RUN conda env create -f ./multipage_app/environment.yml
+#COPY ./multipage_app multipage_app
+COPY ./input input
+COPY ./pages pages
+COPY ./utils utils
+COPY ./app.py app.py
+COPY ./environment.yml environment.yml
+
+RUN conda env create -f ./environment.yml
 
 COPY ./.streamlit .streamlit
 

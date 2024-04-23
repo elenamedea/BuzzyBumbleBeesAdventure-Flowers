@@ -130,7 +130,7 @@ custom diagram please click on the <b><i>following button</i></b> to redirect to
 the diagram(s) should be added.</p>"""
 st.markdown(ideas_summary, unsafe_allow_html = True)
 
-st.link_button(":sparkles: Your idea(s) :sparkles:", "https://github.com/elenamedea", type = "primary")
+st.link_button(":sparkles: Your idea(s) :sparkles:", "https://github.com/elenamedea/BuzzyBumbleBeesAdventure-Flowers/issues/2", type = "primary")
 
 with st.sidebar:
     st.success("Thank you for your contribution! :bouquet:")
