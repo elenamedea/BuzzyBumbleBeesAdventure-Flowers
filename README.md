@@ -11,51 +11,29 @@ pinned: false
 
 # BuzzyBumbleBeesAdventure-Flowers multipage streamlit app
 
-This repository contains three folders:
+Hello Plant Lovers! 🌼🌿🌷🍀🌸🌱🌹
 
-- **input**,
-- **pages**, and 
-- **utils**
+The current repository is an implementation of a Streamlit multipage app, containing data regarding 131 plants belonging to Flora of Bavaria. 
+This data is collected under the scope of the BuzzyBumbleBeesAdventure computer game, as a flowering plants' pool for modelling.
 
-two python files:
+The .csv file with the list of plants can be found [here](https://github.com/elenamedea/BuzzyBumbleBeesAdventure-Flowers/blob/main/input/bbba_eda_eng.csv). 🔗
 
-- `app.py`, and 
-- `__init__.py`
+These plants were selected after the revision of flora lists from the Universities of Regensburg and Munich and the addition of 31 plants, which were chosen based on their peculiarity and importance in bavarian economy and tradition.
 
-two yaml files:
 
-- `environment.yml`, and
-- `docker-compose.yml`
+📌 This GitHub repository is syncing with a Hugging Face Space, hosting the Streamlit multipage app. For this process, you can check the original source [here](https://huggingface.co/docs/hub/en/spaces-github-actions).
 
- a `Dockerfile`, and a `requirements.txt` file .
-
-The `__init__.py` file lets the Python interpreter know that a directory contains code for a Python module. An `__init__.py` file can be blank. Without one, you cannot import modules from another folder into your project.
+👀 This README.md is used also in the Hugging Face Spaces. The table at the beginning sets up the required configurations for Hugging Face Spaces.
 
 ---
 
-## input
+## Hugging Face Spaces
 
-The current folder contains nine .csv files on the data collection, to be used as input to the multipage app.
-
-## pages
-
-The current folder contains one folder(**docs**) with two markdown files (`bibliography.md`, and `metadata.md`) and five python files (`1_eda_summaries.py`, `2_metadata.py`, `3_bibliography.py`, `4_eda_project_scope.py`, and `5_diy_exploration.py`). These python files together with markdowns from the **docs** folder consists the major blocks of code for the multipage app.
-
-The`__init__.py` file lets the Python interpreter know that a directory contains code for a Python module. An `__init__.py` file can be blank. Without one, you cannot import modules from another folder into your project.
-
-## utils
-
-The current folder contains **24** python files, representing python functions used in the multipage app and a `__init__.py` file, intialising these functions.
-
-## `app.py`
-
-This python file contains the introduction for the multipage app and by running it with streamlit it generates the multipage app.
-
-## `environment.yml`
-
-This yaml file is used to set up a development environment called `bbba-flowers` for the multipage app project.
+You can visit the app in the Hugging Face Spaces, by clicking on [here](https://huggingface.co/spaces/elenamedea/BBBA-flowers). 🔗
 
 ---
+
+Except for Hugging Face Spaces, Docker is utilized for containerization and app deployment.
 
 ## How to setup the bbba-flowers environment with Conda and VsCode
 
@@ -70,8 +48,6 @@ This yaml file is used to set up a development environment called `bbba-flowers`
     - Search and select `Python: Select Interpreter`
     - Select the options that contains `bbba-flowers`
 - Add [Jupyter extention](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) to VsCode
-
----
 
 ### Common tasks
 
@@ -92,17 +68,24 @@ When [adding](https://anaconda.org/search?q=jupyter) or removing a package
 
 ---
 
-### Running with docker compose
+### Running with local services
+
+- Code execution in Jupyter Notebooks should work as expected
+- Start Streamlit with `python -m streamlit run ./app.py` (don't forget to deactivate conda base env before activating conda `bbba-flowers`)
+
+---
+
+### Deploying Streamlit using Docker
+
+####  Docker Prerequisites
+
+- [Install Docker Engine](https://docs.streamlit.io/deploy/tutorials/docker#install-docker-engine)
+- [Check network port accessibility](https://docs.streamlit.io/deploy/tutorials/docker#check-network-port-accessibility)
+
+#### Running with docker compose
 
 - Create `.env` file by running `cp .example.env .env` and editing its contents if needed
 - `docker compose build`
 - `docker compose up -d`
-- Visit https://localhost for Streamlit
-
----
-
-### Running with local services
-
-- Code execution in Jupyter Notebooks should work as expected
-- Start Streamlit with `python -m streamlit run ./multipage_app/app.py` (don't forget to deactivate conda base env before activating conda `bbba-flowers`)
+- Visit https://localhost for Streamlit multipage app
 
