@@ -11,7 +11,7 @@ pinned: false
 
 # BuzzyBumbleBeesAdventure-Flowers multipage streamlit app
 
-**Hello Plant Lovers!** 🌼🌿🌷🍀🌸🌱🌹
+🌼🌿🌷🍀 **Hello Plant Lovers!** 🌸🌱🌹🌾
 
 The current repository is an implementation of a Streamlit multipage app, containing data regarding 131 plants belonging to Flora of Bavaria. 
 This data is collected under the scope of the BuzzyBumbleBeesAdventure computer game, as a flowering plants' pool for modelling.
@@ -30,6 +30,8 @@ These plants were selected after the revision of flora lists from the Universiti
 ## Hugging Face Spaces
 
 You can visit the app in the Hugging Face Spaces, by clicking on [here](https://huggingface.co/spaces/elenamedea/BBBA-flowers). 🔗
+
+If the Hugging Face Space is paused, click on the *Restart this Space* button (may take a couple of minutes ⏲️).
 
 ---
 
