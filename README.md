@@ -86,7 +86,6 @@ When [adding](https://anaconda.org/search?q=jupyter) 🔗 or removing a package
 
 #### Running with docker compose
 
-- Create `.env` file by running `cp .example.env .env` and editing its contents if needed
 - `docker compose build`
 - `docker compose up -d`
 - Visit https://localhost for Streamlit multipage app
