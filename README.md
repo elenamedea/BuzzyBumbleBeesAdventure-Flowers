@@ -31,8 +31,6 @@ These plants were selected after the revision of flora lists from the Universiti
 
 You can visit the app in the Hugging Face Spaces, by clicking on [here](https://huggingface.co/spaces/elenamedea/BBBA-flowers). 🔗
 
-If the Hugging Face Space is paused, click on the *Restart this Space* button (may take a couple of minutes ⏲️).
-
 ---
 
 Except for Hugging Face Spaces, Docker is utilized for containerization and app deployment.
