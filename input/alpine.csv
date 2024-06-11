@@ -11,7 +11,7 @@ Felsfluren;Rocky meadows
 Felsspalten;Crevices
 alp;alpine
 sickerfrische;seeping fresh
-subalp;subalp
+subalp;subalpine
 Felswände;Rock faces
 trockne;dry
 mäßig trockne;moderately dry
@@ -19,14 +19,14 @@ Lägerfluren;Camp fileds
 Matten der Alpen;Alpine meadows
 (mont);(montane)
 Moorwiesen;Moor meadows
-präalp;pre-alp
+präalp;Pre-alpine
 wechselfeuchte;alternating moist
 Rasen;Grasslands
-alp;alp
-alp. frische;alp fresh
+alp;alpine
+alp. frische;alp. fresh
 beweidete;grazed
 steinige;stony
-subalp. Frische;subalp fresh
+subalp. Frische;subalp. fresh
 tonige;clayey
 SchluchtWald;Canyon forest
 Schneebodenrasen;Snowy grasslands
@@ -35,11 +35,11 @@ feuchte;moist
 Schotterfluren;Gravel meadows
 Steinbrüche;Quarries
 Steinrasen;Stone grasslands
-alp. Sickerfrische;alp seeping fresh
-subalp. Sickerfrische;subalp seeping fresh
-alp. mäßig frische;alp moderately fresh
+alp. Sickerfrische;alp. seeping fresh
+subalp. Sickerfrische;subalp. seeping fresh
+alp. mäßig frische;alp. moderately fresh
 Steinschuttfluren;Rocky rubble meadows
-alp. Schneefeuchte;alp snow moist
+alp. Schneefeuchte;alp. snow moist
 sickerfrische;seeping fresh
 Stellen;Patches
 feuchte;moist
