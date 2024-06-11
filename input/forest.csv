@@ -19,7 +19,7 @@ EichenWald;Oak forest
 lichte;light
 ErlenWald;Alder forest
 FichtenWald;Spruce forest
-mont;mont
+mont;montane
 feuchte;moist
 frische;fresh
 Forste;Forests
@@ -36,7 +36,7 @@ frische;fresh
 (sicker)frische;(seeping) fresh
 lehmige;clayey
 lichte;light
-sickrfeuchte;seeping moist
+sickerfeuchte;seeping moist
 skelettreiche;skeleton rich
 (mäßig) trockne;(moderately) dry
 u. ihre Säume;and their edges

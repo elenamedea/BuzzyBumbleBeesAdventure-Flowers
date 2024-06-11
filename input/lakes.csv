@@ -19,7 +19,7 @@ wechselfeuchte;alternating moist
 Flachmoore;Fens
 sickernasse;seeping wet
 zeitweilig überflutete;temporarily flooded
-Flussufer;River banks
+Flussufer;Riverside
 Geröllstrände;Gravel beaches
 Gewässer;Stretch of water
 eutropher;eutrophic
@@ -32,7 +32,7 @@ MoorWald;Bog forest
 Moorwiesen;Bog meadows
 extensiv bewirtschaftete;extensively managed
 nasse;wet
-präalp;pre-alp
+präalp;Pre-alpine
 wechselfeuchte;alternating moist
 Nasse;Wet
 Niedermoore;Lowland moors
@@ -52,7 +52,7 @@ wechselnasse;alternating wet
 Schlenken;Schlenken
 Schutthalden;Rubble piles
 feuchte;moist
-Seeufer;Lake bank
+Seeufer;Lakeside
 Staudenfluren;Herbaceous meadows
 feuchte;moist
 frische;fresh
@@ -70,9 +70,9 @@ Torfstiche;Peat ditches
 Triften;Drifts
 feuchte;moist
 moorige;boggy
-Ufer;Bank
-Ufergebüsche;Bank shrubs
-Uferstaudenfluren;Bank herbaceous meadows
+Ufer;River-, lake-, waterside
+Ufergebüsche;River-, lake-, waterside shrubs
+Uferstaudenfluren;River-, lake-, waterside herbaceous meadows
 Verlandungsgürtel;Silting belts
 Waldquellen;Forest springs
 Weiden;Grazing lands
